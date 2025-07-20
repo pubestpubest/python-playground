@@ -1,0 +1,5 @@
+Scan Results
+============
+Port 22 is OPEN
+Port 80 is CLOSED
+Port 443 is OPEN

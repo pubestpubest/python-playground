@@ -1,8 +1,10 @@
-import random
-import string
+import hashlib
 
-def generate_password(length=8):
-    chars = string.ascii_letters + string.digits + "!@#$%^"
-    return ''.join(random.choice(chars) for _ in range(length))
 
-print("Generated password:", generate_password())
+with open("wordlist.txt", "r") as file:
+    lines = file.readlines()
+
+for line in lines:
+    hashed = hashlib.sha256(line.strip().encode()).hexdigest()
+    with open("hashes.txt", "a") as file:
+        file.write(hashed+"\n")
