@@ -1,0 +1,23 @@
+[INFO] User root logged in from 10.0.0.1
+[WARNING] Failed login from 10.0.0.2
+[INFO] User admin logged in from 8.8.8.8
+[ERROR] Unauthorized access attempt from 10.0.0.2
+[INFO] User guest logged in from 192.168.1.5
+[WARNING] Failed login from 192.168.1.5
+[ERROR] Error reading user data from 10.0.0.2
+[INFO] User test logged in from 10.0.0.3
+[ERROR] Unauthorized access attempt from 10.0.0.3
+[WARNING] Failed login from 127.0.0.1
+[INFO] User alice logged in from 192.168.0.12
+[ERROR] Error processing request from 8.8.8.8
+[INFO] User bob logged in from 172.16.0.2
+[WARNING] Failed login from 172.16.0.2
+[ERROR] Unauthorized access attempt from 192.168.1.5
+[ERROR] Error: database connection failed for 10.0.0.5
+[INFO] User charlie logged in from 10.0.0.5
+[WARNING] Failed login from 10.0.0.5
+[ERROR] Unauthorized access attempt from 127.0.0.1
+[ERROR] Error writing log entry for 192.168.0.12
+[INFO] User eve logged in from 192.168.1.10
+[WARNING] Failed login from 192.168.1.10
+[ERROR] Error: invalid credentials from 172.16.0.1
